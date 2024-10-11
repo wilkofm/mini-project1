@@ -33,7 +33,7 @@ Back End Link
 
 # Styling Ideas
 
-I want the site to have a minimal feel, immaculate, art gallery/Mubi aesthetic
+I want the site to have a minimal feel, an immaculate, art gallery/Mubi aesthetic
 
 Here are a few styling features I’d like to implement:
 
@@ -43,10 +43,6 @@ Here are a few styling features I’d like to implement:
 
 # Questions I Have
 
-Where do I source my movie data API?
-
-How do I create the rating feature?
-
-How Do I create the ability to rate films based on the rating?
-
-How to link the backend to the rest?
+- Where do I source my movie data API?
+- How Do I create the ability to filter films on multiple things?
+- How to link the backend to the rest?
