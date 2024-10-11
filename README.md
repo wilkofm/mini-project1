@@ -5,7 +5,7 @@ Max's Movie Corner Mini Project
 
 What Do I Want To Make?
 
-Max’s Movie Corner, is a one-page site where you receive a card list of movies with information such as movie title, year, director etc. and the user can filter the movies based on genre, year or rating.
+Max’s Movie Corner, is a one-page site where the user receives a card list of movies with information such as movie title, year, director etc. and they can filter the movies based on genre, year or rating.
 
 # Github
 
