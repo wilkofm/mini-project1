@@ -27,10 +27,6 @@ Styling Branch
 
 - Branch where I style and make everything look aesthetically pleasing
 
-Back End Link
-
-- Branch where I link everything to a backend server
-
 # Styling Goals
 
 I want the site to have a minimal feel, an immaculate, art gallery/Mubi aesthetic
@@ -45,4 +41,3 @@ Here are a few styling features I’d like to implement:
 
 - Where do I source my movie data API?
 - How Do I create the ability to filter films on multiple things?
-- How to link the backend to the rest?
