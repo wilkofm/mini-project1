@@ -31,7 +31,7 @@ Back End Link
 
 - Branch where I link everything to a backend server
 
-# Styling Ideas
+# Styling Goals
 
 I want the site to have a minimal feel, an immaculate, art gallery/Mubi aesthetic
 
