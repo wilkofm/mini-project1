@@ -6,6 +6,7 @@
       "launchYear": 1994,
       "rating": 9.3,
       "director": "Frank Darabont",
+      "genre": "Drama",
       "image": "./images/Shawshank.jpg"
     },
     {
@@ -13,133 +14,171 @@
       "title": "The Godfather",
       "launchYear": 1972,
       "rating": 9.2,
-      "director": "Francis Ford Coppola"
+      "director": "Francis Ford Coppola",
+      "genre": "Drama",
+      "image": "./images/The Godfather.jpg"
     },
     {
       "id": 3,
       "title": "The Dark Knight",
       "launchYear": 2008,
       "rating": 9.0,
-      "director": "Christopher Nolan"
+      "director": "Christopher Nolan",
+      "genre": "Action",
+      "image": "./images/The Dark Knight.jpg"
     },
     {
       "id": 4,
       "title": "Romeo + Juliet",
       "launchYear": 1996,
       "rating": 6.7,
-      "director": "Baz Luhrmann"
+      "director": "Baz Luhrmann",
+      "genre": "Drama",
+      "image": "./images/Romeo + Juliet.jpg"
     },
     {
       "id": 5,
       "title": "Alien",
       "launchYear": 1979,
       "rating": 8.5,
-      "director": "Ridley Scott"
+      "director": "Ridley Scott",
+      "genre": "Thriller",
+      "image": "./images/Alien.jpg"
     },
     {
       "id": 6,
       "title": "The Lord of the Rings: The Return of the King",
       "launchYear": 2003,
       "rating": 9.0,
-      "director": "Peter Jackson"
+      "director": "Peter Jackson",
+      "genre": "Action",
+      "image": "./images/Lord Of The Rings.jpg"
     },
     {
       "id": 7,
       "title": "Fight Club",
       "launchYear": 1999,
       "rating": 8.8,
-      "director": "David Fincher"
+      "director": "David Fincher",
+      "genre": "Action",
+      "image": "./images/Fight Club.jpg"
     },
     {
       "id": 8,
       "title": "Inception",
       "launchYear": 2010,
       "rating": 8.8,
-      "director": "Christopher Nolan"
+      "director": "Christopher Nolan",
+      "genre": "Action",
+      "image": "./images/Inception.jpg"
     },
     {
       "id": 9,
       "title": "Forrest Gump",
       "launchYear": 1994,
       "rating": 8.8,
-      "director": "Robert Zemeckis"
+      "director": "Robert Zemeckis",
+      "genre": "Drama",
+      "image": "./images/Forrest Gump.jpg"
     },
     {
       "id": 10,
       "title": "The Matrix",
       "launchYear": 1999,
       "rating": 8.7,
-      "director": "Lana Wachowski, Lilly Wachowski"
+      "director": "Lana Wachowski, Lilly Wachowski",
+      "genre": "Action",
+      "image": "./images/The Matrix.jpg"
     },
     {
       "id": 11,
       "title": "The Silence of the Lambs",
       "launchYear": 1991,
       "rating": 8.6,
-      "director": "Jonathan Demme"
+      "director": "Jonathan Demme",
+      "genre": "Thriller",
+      "image": "./images/The Silence Of The Lambs.jpg"
     },
     {
       "id": 12,
       "title": "Se7en",
       "launchYear": 1995,
       "rating": 8.6,
-      "director": "David Fincher"
+      "director": "David Fincher",
+      "genre": "Thriller",
+      "image": "./images/Se7en.jpg"
     },
     {
       "id": 13,
       "title": "Interstellar",
       "launchYear": 2014,
       "rating": 8.6,
-      "director": "Christopher Nolan"
+      "director": "Christopher Nolan",
+      "genre": "Drama",
+      "image": "./images/Interstellar.jpg"
     },
     {
       "id": 14,
       "title": "Gladiator",
       "launchYear": 2000,
       "rating": 8.5,
-      "director": "Ridley Scott"
+      "director": "Ridley Scott",
+      "genre": "Action",
+      "image": "./images/Gladiator.jpg"
     },
     {
       "id": 15,
       "title": "Dune",
       "launchYear": 2021,
       "rating": 8.0,
-      "director": "Dennis Villeneuve"
+      "director": "Dennis Villeneuve",
+      "genre": "Sci Fi",
+      "image": "./images/Dune.jpg"
     },
     {
       "id": 16,
       "title": "The Prestige",
       "launchYear": 2006,
       "rating": 8.5,
-      "director": "Christopher Nolan"
+      "director": "Christopher Nolan",
+      "genre": "Drama",
+      "image": "./images/The Prestige.jpg"
     },
     {
       "id": 17,
       "title": "The Lion King",
       "launchYear": 1994,
       "rating": 8.5,
-      "director": "Roger Allers, Rob Minkoff"
+      "director": "Roger Allers, Rob Minkoff",
+      "genre": "Childrens",
+      "image": "./images/The Lion King.jpg"
     },
     {
       "id": 18,
       "title": "Prisoners",
       "launchYear": 2013,
       "rating": 8.2,
-      "director": "Dennis Villeneuve"
+      "director": "Dennis Villeneuve",
+      "genre": "Thriller",
+      "image": "./images/Prisoners.jpg"
     },
     {
       "id": 19,
       "title": "The Green Mile",
       "launchYear": 1999,
       "rating": 8.6,
-      "director": "Frank Darabont"
+      "director": "Frank Darabont",
+      "genre": "Drama",
+      "image": "./images/The Green Mile.jpg"
     },
     {
       "id": 20,
       "title": "Cast Away",
       "launchYear": 2000,
       "rating": 7.8,
-      "director": "Robert Zemeckis"
+      "director": "Robert Zemeckis",
+      "genre": "Drama",
+      "image": "./images/Cast Away.jpg"
     }
   ]
 }
