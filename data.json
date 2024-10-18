@@ -1,0 +1,184 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "12 Angry Men",
+      "launchYear": 1957,
+      "rating": 9.0,
+      "director": "Sidney Lumet",
+      "genre": "Drama",
+      "image": "./images/12 Angry Men.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Aftersun",
+      "launchYear": 2022,
+      "rating": 7.6,
+      "director": "Charlotte Wells",
+      "genre": "Drama",
+      "image": "./images/Aftersun.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Alien: Romulus",
+      "launchYear": 2024,
+      "rating": 7.3,
+      "director": "Fede Alvarez",
+      "genre": "Thriller",
+      "image": "./images/Alien Romulus.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Anora",
+      "launchYear": 2024,
+      "rating": 8.2,
+      "director": "Sean Baker",
+      "genre": "Drama",
+      "image": "./images/Anora.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Blade Runner",
+      "launchYear": 1982,
+      "rating": 8.1,
+      "director": "Ridley Scott",
+      "genre": "Sci Fi",
+      "image": "./images/Blade Runner.png"
+    },
+    {
+      "id": 6,
+      "title": "Dune: Part Two",
+      "launchYear": 2024,
+      "rating": 8.5,
+      "director": "Dennis Villeneuve",
+      "genre": "Sci Fi",
+      "image": "./images/Dune Part 2.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Longlegs",
+      "launchYear": 2024,
+      "rating": 6.7,
+      "director": "Osgood Perkins",
+      "genre": "Thriller",
+      "image": "./images/Longlegs.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Nightcrawler",
+      "launchYear": 2014,
+      "rating": 7.8,
+      "director": "Dan Gilroy",
+      "genre": "Thriller",
+      "image": "./images/Nightcrawler.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Personal Shopper",
+      "launchYear": 2016,
+      "rating": 6.1,
+      "director": "Olivier Assayas",
+      "genre": "Thriller",
+      "image": "./images/Personal Shopper.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Prisoners",
+      "launchYear": 2013,
+      "rating": 8.2,
+      "director": "Dennis Villeneuve",
+      "genre": "Thriller",
+      "image": "./images/Prisoners.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Rogue One: A Star Wars Story",
+      "launchYear": 2016,
+      "rating": 7.8,
+      "director": "Gareth Edwards",
+      "genre": "Action",
+      "image": "./images/Rogue One.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Se7en",
+      "launchYear": 1995,
+      "rating": 8.6,
+      "director": "David Fincher",
+      "genre": "Thriller",
+      "image": "./images/Se7en.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Tar",
+      "launchYear": 2022,
+      "rating": 7.4,
+      "director": "Todd Field",
+      "genre": "Drama",
+      "image": "./images/Tar.jpg"
+    },
+    {
+      "id": 14,
+      "title": "The Batman",
+      "launchYear": 2022,
+      "rating": 7.8,
+      "director": "Matt Reeves",
+      "genre": "Action",
+      "image": "./images/The Batman 2.jpg"
+    },
+    {
+      "id": 15,
+      "title": "The Godfather",
+      "launchYear": 1972,
+      "rating": 9.2,
+      "director": "Francis Ford Coppola",
+      "genre": "Drama",
+      "image": "./images/The Godf2ther.jpg"
+    },
+    {
+      "id": 16,
+      "title": "The Northman",
+      "launchYear": 2022,
+      "rating": 7.0,
+      "director": "Robert Eggers",
+      "genre": "Action",
+      "image": "./images/The Northman.jpg"
+    },
+    {
+      "id": 17,
+      "title": "The Silence of the Lambs",
+      "launchYear": 1991,
+      "rating": 8.6,
+      "director": "Jonathan Demme",
+      "genre": "Thriller",
+      "image": "./images/The Silence Of The Lambs.jpg"
+    },
+    {
+      "id": 18,
+      "title": "The Substance",
+      "launchYear": 2024,
+      "rating": 7.8,
+      "director": "Coralie Fargeat",
+      "genre": "Thriller",
+      "image": "./images/The Substance.jpg"
+    },
+    {
+      "id": 19,
+      "title": "The Zone Of Interest",
+      "launchYear": 2023,
+      "rating": 7.4,
+      "director": "Jonathan Glazer",
+      "genre": "Drama",
+      "image": "./images/The Zone Of Interest.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Whiplash",
+      "launchYear": 2014,
+      "rating": 8.5,
+      "director": "Damien Chazelle",
+      "genre": "Drama",
+      "image": "./images/Whiplash.jpg"
+    }
+  ]
+}
