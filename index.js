@@ -30,3 +30,67 @@ function renderPosts(posts) {
     postsContainer.appendChild(card);
   });
 }
+
+const dropdownGenre = document.querySelectorAll(".dropdown-genre");
+dropdownGenre.forEach((item) => {
+  item.addEventListener("click", (event) => {
+    event.preventDefault();
+
+    const genre = item.getAttribute("data-category");
+    const filteredGenres = data.filter((post) => post.genre === genre);
+
+    renderPosts(filteredGenres);
+  });
+});
+
+const yearRanges = {
+  All: { start: 1950, end: 2029 },
+  "2020s": { start: 2020, end: 2029 },
+  "2010s": { start: 2010, end: 2019 },
+  "1990s": { start: 1990, end: 1999 },
+  "1980s": { start: 1980, end: 1989 },
+  "1970s": { start: 1970, end: 1979 },
+  "1950s": { start: 1950, end: 1959 },
+};
+
+const dropdownYear = document.querySelectorAll(".dropdown-year");
+dropdownYear.forEach((item) => {
+  item.addEventListener("click", (event) => {
+    event.preventDefault();
+
+    const yearCategory = item.getAttribute("data-category");
+    const { start, end } = yearRanges[yearCategory];
+
+    const filteredYears = data.filter((post) => {
+      const launchYear = parseInt(post.launchYear);
+      return launchYear >= start && launchYear <= end;
+    });
+
+    renderPosts(filteredYears);
+  });
+});
+
+const ratingRanges = {
+  All: { start: 6.0, end: 9.9 },
+  9: { start: 9.0, end: 9.9 },
+  8: { start: 8.0, end: 8.9 },
+  7: { start: 7.0, end: 7.9 },
+  6: { start: 6.0, end: 6.9 },
+};
+
+const dropdownRating = document.querySelectorAll(".dropdown-rating");
+dropdownRating.forEach((item) => {
+  item.addEventListener("click", (event) => {
+    event.preventDefault();
+
+    const ratingCategory = item.getAttribute("data-category");
+    const { start, end } = ratingRanges[ratingCategory];
+
+    const filteredRating = data.filter((post) => {
+      const rating = parseInt(post.rating);
+      return rating >= start && rating <= end;
+    });
+
+    renderPosts(filteredRating);
+  });
+});
