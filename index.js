@@ -44,6 +44,7 @@ dropdownGenre.forEach((item) => {
 });
 
 const yearRanges = {
+  All: { start: 1950, end: 2029 },
   "2020s": { start: 2020, end: 2029 },
   "2010s": { start: 2010, end: 2019 },
   "1990s": { start: 1990, end: 1999 },
@@ -70,6 +71,7 @@ dropdownYear.forEach((item) => {
 });
 
 const ratingRanges = {
+  All: { start: 6.0, end: 9.9 },
   9: { start: 9.0, end: 9.9 },
   8: { start: 8.0, end: 8.9 },
   7: { start: 7.0, end: 7.9 },

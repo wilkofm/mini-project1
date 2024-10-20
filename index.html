@@ -2,6 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Max's Movie Corner display's a list of films from the past 70 years which are filterable based on genre, rating or year of release"
+    />
+    <meta name="author" content="Max Wilkinson" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Max's Movie Corner</title>
     <link
@@ -96,32 +101,65 @@
 
               <ul class="dropdown-menu" aria-labelledby="yearDropdown">
                 <li>
-                  <a class="dropdown-year" href="#" data-category="2020s">
+                  <a
+                    class="dropdown-year dropdown-item"
+                    href="#"
+                    data-category="All"
+                  >
+                    All Years
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-year dropdown-item"
+                    href="#"
+                    data-category="2020s"
+                  >
                     2020s
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-year" href="#" data-category="2010s">
+                  <a
+                    class="dropdown-year dropdown-item"
+                    href="#"
+                    data-category="2010s"
+                  >
                     2010s
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-year" href="#" data-category="1990s">
+                  <a
+                    class="dropdown-year dropdown-item"
+                    href="#"
+                    data-category="1990s"
+                  >
                     1990s
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-year" href="#" data-category="1980s">
+                  <a
+                    class="dropdown-year dropdown-item"
+                    href="#"
+                    data-category="1980s"
+                  >
                     1980s
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-year" href="#" data-category="1970s">
+                  <a
+                    class="dropdown-year dropdown-item"
+                    href="#"
+                    data-category="1970s"
+                  >
                     1970s
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-year" href="#" data-category="1950s">
+                  <a
+                    class="dropdown-year dropdown-item"
+                    href="#"
+                    data-category="1950s"
+                  >
                     1950s
                   </a>
                 </li>
@@ -143,32 +181,51 @@
 
               <ul class="dropdown-menu" aria-labelledby="ratingDropdown">
                 <li>
-                  <a class="dropdown-rating" href="#" data-category="9"> 9 </a>
+                  <a
+                    class="dropdown-rating dropdown-item"
+                    href="#"
+                    data-category="All"
+                  >
+                    All Ratings
+                  </a>
                 </li>
                 <li>
-                  <a class="dropdown-rating" href="#" data-category="8"> 8 </a>
+                  <a
+                    class="dropdown-rating dropdown-item"
+                    href="#"
+                    data-category="9"
+                  >
+                    9+
+                  </a>
                 </li>
                 <li>
-                  <a class="dropdown-rating" href="#" data-category="7"> 7 </a>
+                  <a
+                    class="dropdown-rating dropdown-item"
+                    href="#"
+                    data-category="8"
+                  >
+                    8+
+                  </a>
                 </li>
                 <li>
-                  <a class="dropdown-rating" href="#" data-category="6"> 6 </a>
+                  <a
+                    class="dropdown-rating dropdown-item"
+                    href="#"
+                    data-category="7"
+                  >
+                    7+
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-rating dropdown-item"
+                    href="#"
+                    data-category="6"
+                  >
+                    6+
+                  </a>
                 </li>
               </ul>
-            </li>
-
-            <!-- Clear Filter Button -->
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="#"
-                id="clearlist"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Clear Filter
-              </a>
             </li>
           </ul>
         </div>
@@ -188,5 +245,11 @@
       ;
     ></script>
     <script src="index.js"></script>
+    <footer>
+      <p>Author: Max Wilkinson</p>
+      <a href="mailto:maxferriswilkinson@gmail.com"
+        >maxferriswilkinson@gmail.com</a
+      >
+    </footer>
   </body>
 </html>
