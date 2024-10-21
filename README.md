@@ -29,15 +29,10 @@ Styling Branch
 
 # Styling Goals
 
-I want the site to have a minimal feel, an immaculate, art gallery/Mubi aesthetic
+I want the site to have a minimal feel, a clean, art gallery/Mubi aesthetic
 
 Here are a few styling features I’d like to implement:
 
 - Interesting Font
 - Icons
 - Flex-Box To Style Page and Card-list, create a breaker on the left-hand side
-
-# Questions I Have
-
-- Where do I source my movie data API?
-- How Do I create the ability to filter films on multiple things?
