@@ -1,3 +1,5 @@
+// Card List Function
+
 let data = [];
 
 fetch("data.json")
@@ -15,9 +17,13 @@ function renderPosts(posts) {
     const card = document.createElement("div");
     card.classList.add("col-12", "col-sm-6", "col-lg-3");
 
+    const movieUrl = post.url;
+
     card.innerHTML = `
         <div class="card" style="width: 18rem;">
+        <a href="${movieUrl}" target="_blank">
   <img src="${post.image}" class="card-img-top" alt="...">
+  </a>
   <div class="card-body">
     <h5 class="card-title">${post.title}</h5>
     <div class="card-text">${post.director}</div>
@@ -31,6 +37,8 @@ function renderPosts(posts) {
   });
 }
 
+// Filter By Genre Function
+
 const dropdownGenre = document.querySelectorAll(".dropdown-genre");
 dropdownGenre.forEach((item) => {
   item.addEventListener("click", (event) => {
@@ -42,6 +50,8 @@ dropdownGenre.forEach((item) => {
     renderPosts(filteredGenres);
   });
 });
+
+// Filter By Year Function
 
 const yearRanges = {
   All: { start: 1950, end: 2029 },
@@ -70,6 +80,8 @@ dropdownYear.forEach((item) => {
   });
 });
 
+// Filter By Rating Function
+
 const ratingRanges = {
   All: { start: 6.0, end: 9.9 },
   9: { start: 9.0, end: 9.9 },
@@ -83,14 +95,26 @@ dropdownRating.forEach((item) => {
   item.addEventListener("click", (event) => {
     event.preventDefault();
 
-    const ratingCategory = item.getAttribute("data-category");
-    const { start, end } = ratingRanges[ratingCategory];
+    try {
+      const ratingCategory = item.getAttribute("data-category");
 
-    const filteredRating = data.filter((post) => {
-      const rating = parseInt(post.rating);
-      return rating >= start && rating <= end;
-    });
+      if (!ratingRanges[ratingCategory]) {
+        throw new Error("Rating category not valid!");
+      }
 
-    renderPosts(filteredRating);
+      const { start, end } = ratingRanges[ratingCategory];
+
+      const filteredRating = data.filter((post) => {
+        const rating = parseInt(post.rating);
+        if (isNaN(rating)) {
+          throw new Error("Invalid rating!");
+        }
+        return rating >= start && rating <= end;
+      });
+
+      renderPosts(filteredRating);
+    } catch (err) {
+      console.log("error:", err.message);
+    }
   });
 });

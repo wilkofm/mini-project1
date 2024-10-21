@@ -7,7 +7,8 @@
       "rating": 9.0,
       "director": "Sidney Lumet",
       "genre": "Drama",
-      "image": "./images/12 Angry Men.jpg"
+      "image": "./images/12 Angry Men.jpg",
+      "url": "https://www.youtube.com/watch?v=OvebOqneLIU"
     },
     {
       "id": 2,
@@ -16,7 +17,8 @@
       "rating": 7.6,
       "director": "Charlotte Wells",
       "genre": "Drama",
-      "image": "./images/Aftersun.jpg"
+      "image": "./images/Aftersun.jpg",
+      "url": "https://www.youtube.com/watch?v=vXKcWRu8K_U"
     },
     {
       "id": 3,
@@ -25,7 +27,8 @@
       "rating": 7.3,
       "director": "Fede Alvarez",
       "genre": "Thriller",
-      "image": "./images/Alien Romulus.jpg"
+      "image": "./images/Alien Romulus.jpg",
+      "url": "https://www.youtube.com/watch?v=GTNMt84KT0k"
     },
     {
       "id": 4,
@@ -34,7 +37,8 @@
       "rating": 8.2,
       "director": "Sean Baker",
       "genre": "Drama",
-      "image": "./images/Anora.jpg"
+      "image": "./images/Anora.jpg",
+      "url": "https://www.youtube.com/watch?v=8m6UrWMl18M"
     },
     {
       "id": 5,
@@ -43,7 +47,8 @@
       "rating": 8.1,
       "director": "Ridley Scott",
       "genre": "Sci Fi",
-      "image": "./images/Blade Runner.png"
+      "image": "./images/Blade Runner.png",
+      "url": "https://www.youtube.com/watch?v=qoEyZoOTtss"
     },
     {
       "id": 6,
@@ -52,7 +57,8 @@
       "rating": 8.5,
       "director": "Dennis Villeneuve",
       "genre": "Sci Fi",
-      "image": "./images/Dune Part 2.jpg"
+      "image": "./images/Dune Part 2.jpg",
+      "url": "https://www.youtube.com/watch?v=Way9Dexny3w"
     },
     {
       "id": 7,
@@ -61,7 +67,8 @@
       "rating": 6.7,
       "director": "Osgood Perkins",
       "genre": "Thriller",
-      "image": "./images/Longlegs.jpg"
+      "image": "./images/Longlegs.jpg",
+      "url": "https://www.youtube.com/watch?v=OG7wOTE8NhE"
     },
     {
       "id": 8,
@@ -70,7 +77,8 @@
       "rating": 7.8,
       "director": "Dan Gilroy",
       "genre": "Thriller",
-      "image": "./images/Nightcrawler.jpg"
+      "image": "./images/Nightcrawler.jpg",
+      "url": "https://www.youtube.com/watch?v=VPDErRzsl-0"
     },
     {
       "id": 9,
@@ -79,7 +87,8 @@
       "rating": 6.1,
       "director": "Olivier Assayas",
       "genre": "Thriller",
-      "image": "./images/Personal Shopper.jpg"
+      "image": "./images/Personal Shopper.jpg",
+      "url": "https://www.youtube.com/watch?v=xC8AjoqpBAY"
     },
     {
       "id": 10,
@@ -88,7 +97,8 @@
       "rating": 8.2,
       "director": "Dennis Villeneuve",
       "genre": "Thriller",
-      "image": "./images/Prisoners.jpg"
+      "image": "./images/Prisoners.jpg",
+      "url": "https://www.youtube.com/watch?v=2SupordEUpw"
     },
     {
       "id": 11,
@@ -97,7 +107,8 @@
       "rating": 7.8,
       "director": "Gareth Edwards",
       "genre": "Action",
-      "image": "./images/Rogue One.jpg"
+      "image": "./images/Rogue One.jpg",
+      "url": "https://www.youtube.com/watch?v=frdj1zb9sMY"
     },
     {
       "id": 12,
@@ -106,7 +117,8 @@
       "rating": 8.6,
       "director": "David Fincher",
       "genre": "Thriller",
-      "image": "./images/Se7en.jpg"
+      "image": "./images/Se7en.jpg",
+      "url": "https://www.youtube.com/watch?v=znmZoVkCjpI"
     },
     {
       "id": 13,
@@ -115,7 +127,8 @@
       "rating": 7.4,
       "director": "Todd Field",
       "genre": "Drama",
-      "image": "./images/Tar.jpg"
+      "image": "./images/Tar.jpg",
+      "url": "https://www.youtube.com/watch?v=Na6gA1RehsU"
     },
     {
       "id": 14,
@@ -124,7 +137,8 @@
       "rating": 7.8,
       "director": "Matt Reeves",
       "genre": "Action",
-      "image": "./images/The Batman 2.jpg"
+      "image": "./images/The Batman 2.jpg",
+      "url": "https://www.youtube.com/watch?v=mqqft2x_Aa4"
     },
     {
       "id": 15,
@@ -133,7 +147,8 @@
       "rating": 9.2,
       "director": "Francis Ford Coppola",
       "genre": "Drama",
-      "image": "./images/The Godf2ther.jpg"
+      "image": "./images/The Godf2ther.jpg",
+      "url": "https://www.youtube.com/watch?v=UaVTIH8mujA"
     },
     {
       "id": 16,
@@ -142,7 +157,8 @@
       "rating": 7.0,
       "director": "Robert Eggers",
       "genre": "Action",
-      "image": "./images/The Northman.jpg"
+      "image": "./images/The Northman.jpg",
+      "url": "https://www.youtube.com/watch?v=oMSdFM12hOw"
     },
     {
       "id": 17,
@@ -151,7 +167,8 @@
       "rating": 8.6,
       "director": "Jonathan Demme",
       "genre": "Thriller",
-      "image": "./images/The Silence Of The Lambs.jpg"
+      "image": "./images/The Silence Of The Lambs.jpg",
+      "url": "https://www.youtube.com/watch?v=1lFj08l4ujg"
     },
     {
       "id": 18,
@@ -160,7 +177,8 @@
       "rating": 7.8,
       "director": "Coralie Fargeat",
       "genre": "Thriller",
-      "image": "./images/The Substance.jpg"
+      "image": "./images/The Substance.jpg",
+      "url": "https://www.youtube.com/watch?v=LNlrGhBpYjc"
     },
     {
       "id": 19,
@@ -169,7 +187,8 @@
       "rating": 7.4,
       "director": "Jonathan Glazer",
       "genre": "Drama",
-      "image": "./images/The Zone Of Interest.jpg"
+      "image": "./images/The Zone Of Interest.jpg",
+      "url": "https://www.youtube.com/watch?v=r-vfg3KkV54"
     },
     {
       "id": 20,
@@ -178,7 +197,8 @@
       "rating": 8.5,
       "director": "Damien Chazelle",
       "genre": "Drama",
-      "image": "./images/Whiplash.jpg"
+      "image": "./images/Whiplash.jpg",
+      "url": "https://www.youtube.com/watch?v=JeShKC6Alyk"
     }
   ]
 }
