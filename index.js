@@ -1,5 +1,6 @@
 // Card List Function
 
+// Fetching data from JSON
 let data = [];
 
 fetch("data.json")
@@ -9,20 +10,23 @@ fetch("data.json")
     renderPosts(data);
   });
 
+// Ensures cleared posts before rendering
 function renderPosts(posts) {
   const postsContainer = document.getElementById("posts-container");
   postsContainer.innerHTML = "";
 
+  // Looping through posts to create JSON
   posts.forEach((post) => {
     const card = document.createElement("div");
     card.classList.add("col-12", "col-sm-6", "col-lg-3");
 
+    // Filling in posts/cards with HTML
     const movieUrl = post.url;
 
     card.innerHTML = `
         <div class="card" style="width: 18rem;">
         <a href="${movieUrl}" target="_blank">
-  <img src="${post.image}" class="card-img-top" alt="...">
+  <img src="${post.image}" class="card-img-top">
   </a>
   <div class="card-body">
     <h5 class="card-title">${post.title}</h5>
@@ -113,8 +117,8 @@ dropdownRating.forEach((item) => {
       });
 
       renderPosts(filteredRating);
-    } catch (err) {
-      console.log("error:", err.message);
+    } catch (Error) {
+      console.log("error:", Error.message);
     }
   });
 });
