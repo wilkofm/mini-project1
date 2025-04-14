@@ -8,7 +8,8 @@ Coming Soon
 
 # Screenshots
 
-Coming Soon
+_Home Page_
+![Home Page](images/home-page.png)
 
 # How To Implement This Project Yourself
 
