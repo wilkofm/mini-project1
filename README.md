@@ -4,7 +4,9 @@ Max’s Movie Corner, is a one-page site where the user receives a card list of 
 
 # Features
 
-Coming Soon
+- Filter movies by genre, release year, and IMDb rating
+- Click movie posters to watch trailers in a new tab
+- Browse a selection of visually striking movie posters displayed in a clean, responsive card layout
 
 # Screenshots
 
@@ -19,7 +21,12 @@ _Home Page_
 
 # Tech Stack
 
-Coming Soon
+- HTML5 – Markup structure
+- CSS3 – Custom styling
+- JavaScript (ES6) – DOM manipulation and data handling
+- Bootstrap 5 – Responsive layout and components
+- JSON – Local movie dataset for rendering content
+- Fetch API – For dynamically loading movie data
 
 # Contact
 
