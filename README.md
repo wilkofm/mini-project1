@@ -1,12 +1,12 @@
 # Max's Movie Corner
 
-Max’s Movie Corner, is a one-page site where the user receives a card list of movies with information such as movie title, year, director etc. and they can filter the movies based on genre, year or rating. The movie cards are also clickable, linking to trailers of each movie.
+🎬 Max’s Movie Corner is a one-page site where the user receives a card list of movies with information such as movie title, year, director, etc. They can filter the movies based on genre, year, or rating. The movie cards are also clickable, linking to trailers of each movie.
 
 # Features
 
-- Filter movies by genre, release year, and IMDb rating
-- Click movie posters to watch trailers in a new tab
-- Browse a selection of visually striking movie posters displayed in a clean, responsive card layout
+- 🔎 Filter movies by genre, release year, and IMDb rating
+- 🎞️ Click movie posters to watch trailers in a new tab
+- 🖼️ Browse a selection of visually striking movie posters displayed in a clean, responsive card layout
 
 # Screenshots
 
